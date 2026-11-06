@@ -3,27 +3,27 @@
 class Eidolon < Formula
   desc "Find copies and Live Photo pairs in a photo and video library by how they look"
   homepage "https://github.com/hiro5id/eidolon-releases"
-  version "2026.11.0"
+  version "2026.11.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.0/eidolon-macos-arm64.tar.gz"
-      sha256 "ea002804efdb7658e759a20f5845da8107db8e9263ebd7e8b30c01827c0c517c"
+      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.1/eidolon-macos-arm64.tar.gz"
+      sha256 "47036d250b29a28f7057b6e8e1c0dfc1bf495b2f04b93a5d7c0f55be702413fb"
     end
     on_intel do
-      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.0/eidolon-macos-x86_64.tar.gz"
-      sha256 "4ff91212f1fd163e5b2cdbfa05b1b7e240bbd50342d0152e98e5dc95bee6acf1"
+      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.1/eidolon-macos-x86_64.tar.gz"
+      sha256 "55554847c98209d6c982f77e9dc03423ec6c7a5f21df0693531c290b2847ec94"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.0/eidolon-linux-arm64.tar.gz"
-      sha256 "524f8be3ccc786e84c7009ed2dcce033851f26948f2256a79827cd598e716b60"
+      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.1/eidolon-linux-arm64.tar.gz"
+      sha256 "a99f06bcd89c187d3368b904a917714da01615d88a955cf5fadbbd14718eec09"
     end
     on_intel do
-      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.0/eidolon-linux-x86_64.tar.gz"
-      sha256 "d9c556feb171cb79b4007cbb297d5a22410e56b94792f0bc36a0007a619ce009"
+      url "https://github.com/hiro5id/eidolon-releases/releases/download/v2026.11.1/eidolon-linux-x86_64.tar.gz"
+      sha256 "79486d88f7f412f8a2c2f2b0ae142d3173e45ec5264575b2050f6864c3109e65"
     end
   end
 
