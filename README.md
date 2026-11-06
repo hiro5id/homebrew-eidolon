@@ -1,10 +1,11 @@
 Eidolon for Homebrew
 ===
 
-The Homebrew tap of [Eidolon](https://github.com/hiro5id/eidolon-releases): it finds the copies and Live Photo pairs in a photo and video library by how they look, and you review them in your browser. macOS and Linux, Apple Silicon, Intel and ARM. Latest version: 2026.11.2.
+The Homebrew tap of [Eidolon](https://github.com/hiro5id/eidolon-releases): it finds the copies and Live Photo pairs in a photo and video library by how they look, and you review them in your browser. macOS and Linux, Apple Silicon, Intel and ARM. Latest version: 2026.11.3.
 
 ```sh
-brew install hiro5id/eidolon/eidolon     # install
+brew tap hiro5id/eidolon                 # once: add this tap
+brew install eidolon                     # install
 eidolon                                  # start it: its window opens (Open shows the review screen)
 brew upgrade eidolon                     # update (or Update now on the review screen)
 brew uninstall eidolon && brew untap hiro5id/eidolon   # remove
